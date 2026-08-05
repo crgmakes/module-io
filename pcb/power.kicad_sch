@@ -5,7 +5,7 @@
 	(uuid "0719e832-1413-43f4-a7d6-5b760ae13c21")
 	(paper "A4")
 	(title_block
-		(title "Servo Module")
+		(title "I/O Module")
 		(date "<<release-date>>")
 		(rev "<<tag>>")
 		(company "CRG Makes")
@@ -303,6 +303,220 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CRGM Connector:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CRGM Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -427,6 +641,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CRGM Passive:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CRGM Passive:PESD3V3S1BL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -439,7 +857,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 						(thickness 0.125)
 					)
 					(justify left bottom)
@@ -452,7 +870,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 						(thickness 0.125)
 					)
 					(justify left bottom)
@@ -530,7 +948,7 @@
 						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -542,7 +960,7 @@
 						(xy -1.27 1.27) (xy -0.0101 0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -554,7 +972,7 @@
 						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -566,7 +984,7 @@
 						(xy -0.3445 -1.6043) (xy -0.3573 -1.6043)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -578,7 +996,7 @@
 						(xy -0.0101 1.2955) (xy -0.0101 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -590,7 +1008,7 @@
 						(xy -0.0101 1.2955) (xy 0.3778 1.6835)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -602,7 +1020,7 @@
 						(xy -0.0101 0.0101) (xy -0.0101 -0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -614,7 +1032,7 @@
 						(xy -0.0101 -0.0101) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -626,7 +1044,7 @@
 						(xy -0.0101 -1.27) (xy -0.3445 -1.6043)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -638,7 +1056,7 @@
 						(xy 0.0101 0.0101) (xy 0.0101 -0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -650,7 +1068,7 @@
 						(xy 0.0101 -0.0101) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -662,7 +1080,7 @@
 						(xy 0.3778 1.6835) (xy 0.3981 1.6835)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -674,7 +1092,7 @@
 						(xy 1.27 1.27) (xy 0.0101 0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -686,7 +1104,7 @@
 						(xy 1.27 -1.27) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -744,7 +1162,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 						(thickness 0.125)
 					)
 					(justify left bottom)
@@ -757,7 +1175,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 						(thickness 0.125)
 					)
 					(justify left bottom)
@@ -857,7 +1275,7 @@
 						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -869,7 +1287,7 @@
 						(xy -1.27 1.27) (xy -0.0101 0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -881,7 +1299,7 @@
 						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -893,7 +1311,7 @@
 						(xy -0.3445 -1.6043) (xy -0.3573 -1.6043)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -905,7 +1323,7 @@
 						(xy -0.0101 1.2955) (xy -0.0101 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -917,7 +1335,7 @@
 						(xy -0.0101 1.2955) (xy 0.3778 1.6835)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -929,7 +1347,7 @@
 						(xy -0.0101 0.0101) (xy -0.0101 -0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -941,7 +1359,7 @@
 						(xy -0.0101 -0.0101) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -953,7 +1371,7 @@
 						(xy -0.0101 -1.27) (xy -0.3445 -1.6043)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -965,7 +1383,7 @@
 						(xy 0.0101 0.0101) (xy 0.0101 -0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -977,7 +1395,7 @@
 						(xy 0.0101 -0.0101) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -989,7 +1407,7 @@
 						(xy 0.3778 1.6835) (xy 0.3981 1.6835)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -1001,7 +1419,7 @@
 						(xy 1.27 1.27) (xy 0.0101 0.0101)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -1013,7 +1431,7 @@
 						(xy 1.27 -1.27) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.15)
 						(type solid)
 					)
 					(fill
@@ -1215,209 +1633,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pin" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1542,219 +1757,6 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2219,6 +2221,31 @@
 		)
 		(uuid "a6df745b-2887-48e8-b2ba-060a53e23deb")
 	)
+	(text_box "NOTE:\nResistor on VIO is set for 5VDC working voltage.\n\nIf you use a higher voltage (e.g., 6V or 12V), the resistor MAY need to be adjusted to avoid catostrophic failure of the IO LED."
+		(exclude_from_sim no)
+		(at 160.02 25.4 0)
+		(size 80.518 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+				(color 0 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "459d0bf7-0178-4898-b358-1c90e4833124")
+	)
 	(junction
 		(at 36.83 39.37)
 		(diameter 0)
@@ -2230,16 +2257,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e85b044-1ae7-40e0-9553-eb14e86aa2f6")
-	)
-	(wire
-		(pts
-			(xy 114.3 49.53) (xy 114.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f1aeccc-7e5e-4f3b-8ac6-4b20465258e1")
 	)
 	(wire
 		(pts
@@ -2353,7 +2370,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 135.89 48.26)
+			(xy 135.89 48.26) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2373,13 +2390,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 125.73 48.26)
+			(xy 125.73 48.26) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "85c5df5e-795a-471d-b115-33e40f056da0")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b81912b-a43a-432a-b479-4056d2999b71")
 	)
 	(wire
 		(pts
@@ -2473,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 125.73 57.15)
+			(xy 125.73 55.88) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 59.69) (xy 114.3 57.15)
+			(xy 114.3 55.88) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 59.69) (xy 135.89 57.15)
+			(xy 135.89 55.88) (xy 135.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2548,7 @@
 		)
 		(uuid "7c414b27-0ddf-424b-b444-940964fff764")
 	)
-	(label "VSERVOLED"
+	(label "VIOLED"
 		(at 135.89 41.91 0)
 		(effects
 			(font
@@ -2542,7 +2569,101 @@
 		(uuid "ad05453f-4941-4008-8d9c-249e0c78e6ee")
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "CRGM Passive:LED_Small")
+		(at 114.3 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01bfe1a4-2df4-45e5-9238-4e146faa3118")
+		(property "Reference" "D12"
+			(at 115.57 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 115.57 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 114.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
+			(at 114.3 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3c4182d-76af-4950-a2ab-382ce04c23a1")
+		)
+		(pin "2"
+			(uuid "7b9c3606-b405-4a39-a08d-f962efef27e8")
+		)
+		(instances
+			(project "io-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
 		(at 125.73 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -2562,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SolderJumper_2_Bridged"
 			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2606,50 +2727,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 125.73 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "74b30f9d-f038-4c79-b479-283385abf598")
 		)
@@ -2657,7 +2734,7 @@
 			(uuid "7310a63e-0864-4214-ae89-13fdc5099ff7")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "JP7")
 					(unit 1)
@@ -2666,7 +2743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
 		(at 135.89 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -2686,7 +2763,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SolderJumper_2_Bridged"
 			(at 138.43 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2730,50 +2807,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 135.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "53ce513f-cf5b-498d-a5de-46c05f628a94")
 		)
@@ -2781,7 +2814,7 @@
 			(uuid "57536d06-abeb-4fd9-982a-2536651501e5")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "JP8")
 					(unit 1)
@@ -2944,7 +2977,7 @@
 			(uuid "2db2b15c-27e4-4dd7-9280-6457fea84e98")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "R9")
 					(unit 1)
@@ -3023,7 +3056,7 @@
 			(uuid "f0dc2a7f-2ac6-4e6f-885a-62685ffe926a")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR084")
 					(unit 1)
@@ -3133,7 +3166,7 @@
 			(uuid "1fec4bda-4e00-4763-919e-2b15969fff57")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR075")
 					(unit 1)
@@ -3245,161 +3278,9 @@
 			(uuid "522aaf34-d4ff-4896-8c7d-973b4be32133")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 114.3 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "233bd638-b033-4185-a502-7670aef35a09")
-		(property "Reference" "D12"
-			(at 115.57 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
-			(at 115.57 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "XINGLIGHT"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-1608UBC-04"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "859-LTST-C190TBKT"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "LCSC" "C965807"
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 114.3 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50f13240-2cdf-4d42-bfb2-f67ddece8fce")
-		)
-		(pin "2"
-			(uuid "bba7b196-3ca5-452b-ba01-68ae6b71fb02")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3357,7 @@
 			(uuid "5ccc41b7-240d-4e61-ac73-c4a8c6c8fa42")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR080")
 					(unit 1)
@@ -3553,7 +3434,7 @@
 			(uuid "b705b55f-2547-47a0-84de-a3b8532d2905")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR061")
 					(unit 1)
@@ -3631,7 +3512,7 @@
 			(uuid "88d996a2-f048-40ac-ad6b-70fdd6cf4267")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR068")
 					(unit 1)
@@ -3709,7 +3590,7 @@
 			(uuid "1fc80062-0dba-42ed-9057-c720ec71969e")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR074")
 					(unit 1)
@@ -3786,7 +3667,7 @@
 			(uuid "96b03979-a6fd-4196-a77f-4ec996bedab7")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR063")
 					(unit 1)
@@ -3898,7 +3779,7 @@
 			(uuid "2374eb60-eccc-49b5-bbc1-8ecd2b2c1ecc")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR081")
 					(unit 1)
@@ -3907,7 +3788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "CRGM Connector:SolderJumper_2_Bridged")
 		(at 114.3 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -3927,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SolderJumper_2_Bridged"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3971,50 +3852,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 114.3 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "70682361-2e78-4084-b49f-f8db628cd66b")
 		)
@@ -4022,7 +3859,7 @@
 			(uuid "d62a5388-4e30-40be-b723-efd38ee20195")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "JP6")
 					(unit 1)
@@ -4099,7 +3936,7 @@
 			(uuid "0b3064a1-1165-400b-9c84-43591356a972")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR078")
 					(unit 1)
@@ -4262,7 +4099,7 @@
 			(uuid "5faf7b87-3242-49ef-9184-f0816ba1906d")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "R7")
 					(unit 1)
@@ -4339,7 +4176,7 @@
 			(uuid "ef6488c7-abd2-4ec7-9f9e-f98f44e4e3fb")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR077")
 					(unit 1)
@@ -4417,7 +4254,7 @@
 			(uuid "aa2b5294-7f7f-4230-be3c-cca39d77ae00")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR072")
 					(unit 1)
@@ -4495,7 +4332,7 @@
 			(uuid "5c64091d-43a3-4f44-92b9-b508d91e1cf9")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR073")
 					(unit 1)
@@ -4572,9 +4409,103 @@
 			(uuid "bc3a69aa-a10b-463c-babf-e9218f4dd9ae")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Passive:LED_Small")
+		(at 135.89 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98e305df-a385-46bf-9941-2c1506a47148")
+		(property "Reference" "D14"
+			(at 137.16 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 137.16 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 135.89 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
+			(at 135.89 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c409f54-2a14-428a-9ea3-349cd6a4c5c3")
+		)
+		(pin "2"
+			(uuid "cc7350e9-075c-4506-ab6c-da37d28bdf91")
+		)
+		(instances
+			(project "io-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4695,7 +4626,7 @@
 			(uuid "ba3f3fff-3e99-4e10-bab7-30db32927db6")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "TP18")
 					(unit 1)
@@ -4773,161 +4704,9 @@
 			(uuid "647f0e68-0d7a-4091-8657-e22eee7d7edc")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 135.89 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0384a44-bd57-4e7f-a157-e41d90cd2c8f")
-		(property "Reference" "D14"
-			(at 137.16 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
-			(at 137.16 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "XINGLIGHT"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-1608UBC-04"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "859-LTST-C190TBKT"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "LCSC" "C965807"
-			(at 135.89 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 135.89 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9224c26-9da1-4bd8-b15c-edda0586554a")
-		)
-		(pin "2"
-			(uuid "065bed21-2b07-4d52-b1be-eea624cbe650")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5088,7 +4867,7 @@
 			(uuid "495bfd10-7353-4369-ae9d-ef39d0bfb946")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "J10")
 					(unit 1)
@@ -5165,7 +4944,7 @@
 			(uuid "618887ea-1533-459c-8fe6-5d5857119cab")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR067")
 					(unit 1)
@@ -5243,7 +5022,7 @@
 			(uuid "919f2407-5583-4613-af52-84672ec171a5")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR071")
 					(unit 1)
@@ -5321,7 +5100,7 @@
 			(uuid "919f2407-5583-4613-af52-84672ec171a6")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR060")
 					(unit 1)
@@ -5399,7 +5178,7 @@
 			(uuid "f5283d97-a381-4f14-b995-4a3ae6fe9e76")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR065")
 					(unit 1)
@@ -5522,9 +5301,103 @@
 			(uuid "8a4f2679-c974-44a8-b62a-83d7bb657f1b")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRGM Passive:LED_Small")
+		(at 125.73 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c490a14c-8d28-4961-9b3c-bc5ec04a83a3")
+		(property "Reference" "D13"
+			(at 127 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 127 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
+			(at 125.73 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(color 223 129 255 1)
+				)
+			)
+		)
+		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
+			(at 125.73 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f95aad8-dac9-429b-8923-f043f1a0d96c")
+		)
+		(pin "2"
+			(uuid "8989712f-cb6b-4792-b697-1d8aafd1b021")
+		)
+		(instances
+			(project "io-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5560,9 +5433,8 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
-					(thickness 0.3023)
-					(bold yes)
+					(size 1.27 1.27)
+					(thickness 0.125)
 				)
 				(justify left bottom)
 			)
@@ -5633,7 +5505,7 @@
 				)
 			)
 		)
-		(property "MN" "TECH PUBLIC"
+		(property "MN" "Nexperia"
 			(at 37.338 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5644,19 +5516,8 @@
 				)
 			)
 		)
-		(property "MPN" "TPSP3022-01ETG"
+		(property "MPN" "PESD5V5C1BLYL"
 			(at 39.624 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 30.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,161 +5534,9 @@
 			(uuid "05606f3b-19d8-4fba-8076-f54a8559aea6")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 125.73 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce8d14dc-f1a8-4111-900e-c0fdeea2f155")
-		(property "Reference" "D13"
-			(at 127 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Blue"
-			(at 127 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRGM Passive:LED_0603_1608Metric"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Description" "Blue 120° 3.3V 300mcd 470nm 70mW 0603"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MN" "XINGLIGHT"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-1608UBC-04"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "859-LTST-C190TBKT"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "LCSC" "C965807"
-			(at 125.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-					(color 223 129 255 1)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 125.73 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7deef848-a17c-4bc1-bb85-5942fd0e9021")
-		)
-		(pin "2"
-			(uuid "c8fe0d00-3c59-4585-9a3f-60546d927f3e")
-		)
-		(instances
-			(project "servo-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5948,7 +5657,7 @@
 			(uuid "666ab19c-1a8b-4c18-a5e8-2b7981d17bcf")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "TP19")
 					(unit 1)
@@ -6026,7 +5735,7 @@
 			(uuid "7071aab0-ed50-4a1d-8a95-30d24c92a24c")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR062")
 					(unit 1)
@@ -6103,7 +5812,7 @@
 			(uuid "246ce785-45ad-4926-b4f3-d57bc5dc4ace")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR066")
 					(unit 1)
@@ -6141,7 +5850,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -6213,39 +5922,6 @@
 				)
 			)
 		)
-		(property "MN" "FUXINSEMI"
-			(at 36.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LESD8D3.3CAT5G"
-			(at 36.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 36.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f21cf7e4-78e9-43db-ad8e-7b7f0c907d0f")
 		)
@@ -6253,7 +5929,7 @@
 			(uuid "9c6a345f-470d-4fb8-9acb-5c846d654f36")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "D11")
 					(unit 1)
@@ -6283,15 +5959,14 @@
 				)
 			)
 		)
-		(property "Value" "VSERVO"
-			(at 132.588 30.48 0)
+		(property "Value" "VIO"
+			(at 135.89 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6364,7 +6039,7 @@
 			(uuid "4023a197-9d46-47cb-9ce7-0aa140e59691")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR083")
 					(unit 1)
@@ -6544,7 +6219,7 @@
 			(uuid "08afa899-1c83-4708-819b-d7c6980c0aa4")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "C19")
 					(unit 1)
@@ -6707,7 +6382,7 @@
 			(uuid "734dfc7a-eb44-4f69-9f0c-44a1b08867f4")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "R8")
 					(unit 1)
@@ -6870,7 +6545,7 @@
 			(uuid "858d4985-c07e-4f59-a14c-892e8b26b279")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "J9")
 					(unit 1)
@@ -6948,7 +6623,7 @@
 			(uuid "adbad228-e356-4a23-991f-b3403cfbac88")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR064")
 					(unit 1)
@@ -7027,7 +6702,7 @@
 			(uuid "3fb1be28-2ac9-4931-81d1-71434f8925a2")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR082")
 					(unit 1)
@@ -7138,7 +6813,7 @@
 			(uuid "1e5751ac-dec8-437b-8198-5a0d9b1c8cbe")
 		)
 		(instances
-			(project "servo-module"
+			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/eeaa896c-88e5-4042-8d3a-e7c6f02bca2a"
 					(reference "#PWR076")
 					(unit 1)
