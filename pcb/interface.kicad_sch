@@ -4961,7 +4961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4983,7 +4983,7 @@
 				)
 			)
 		)
-		(property "MN" ""
+		(property "MN" "DEALON"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DZ127S-22-04-55"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "609-3692-2-ND"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5016,7 +5016,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "649-202112100004C4LF"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5027,7 +5027,18 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5160758"
+			(at 82.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC1" "C3975185"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)

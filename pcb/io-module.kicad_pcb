@@ -35838,7 +35838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35860,7 +35860,7 @@
 				)
 			)
 		)
-		(property "MN" ""
+		(property "MN" "DEALON"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35873,7 +35873,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DZ127S-22-04-55"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35886,7 +35886,7 @@
 				)
 			)
 		)
-		(property "Digikey" ""
+		(property "Digikey" "609-3692-2-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35899,7 +35899,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "649-202112100004C4LF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35912,12 +35912,25 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5160758"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "319a6c35-71c4-46cb-9c81-bda3dcca3aa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC1" "C3975185"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16ff34f0-2af2-485a-a39d-61a0d9338240")
 			(effects
 				(font
 					(size 1 1)
@@ -36237,7 +36250,7 @@
 			(uuid "94e4f326-830e-46d8-83bb-f580f58591b4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x02_P1.27mm_Vertical_SMD.step"
+		(model "${KICAD_USER_MODEL_DIR}/PinHeader_2x02_P1.27mm_Vertical_SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
