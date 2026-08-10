@@ -5889,6 +5889,17 @@
 				)
 			)
 		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 166.37 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b41129a4-146a-4c6c-9aa2-21c973673779")
 		)
@@ -7443,6 +7454,17 @@
 				)
 			)
 		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 160.02 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "480d1ce2-ee19-4cdd-8a14-8016b186bfc1")
 		)
@@ -7563,6 +7585,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 163.83 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 153.67 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7983,6 +8016,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 172.72 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

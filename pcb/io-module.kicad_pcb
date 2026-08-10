@@ -194,7 +194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -224,6 +224,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20f89f91-dc64-4270-a814-e118725cbbfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b621bf70-674c-4d0c-aae0-5e8da1df36e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "392253d2-6d9f-41f3-a31c-42c097f4c54a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83ff8d3c-b4b8-4584-aa52-8ad960549f5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "785e5e5a-cc4e-4abe-8e74-535e62ffc8dc")
 			(effects
 				(font
 					(size 1 1)
@@ -1829,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1859,6 +1911,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22ff6110-92ee-43b2-a2c8-4e34f52f9be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05ca6b8f-e98f-4950-a2f2-65d91866ac7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea96124-31fa-4f59-921a-f5fd466ed2d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6ebad7-fc42-4f0d-99f7-9bda723b2e52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "814754b6-d540-4e59-971c-447f8b3fe47b")
 			(effects
 				(font
 					(size 1 1)
@@ -3620,6 +3724,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16ab9f87-b83f-4689-9274-64e85af79a5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e160c137-624c-40e9-81a1-bd40ad18fc27")
 			(effects
 				(font
 					(size 1 1)
@@ -13005,6 +13122,19 @@
 				)
 			)
 		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65000f4e-b2bd-4bcd-bce2-04dce9f5c9b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/496f3e28-621c-4ae3-8c95-fca1a83b0d02/7cd52af3-b7f3-4def-abf7-2accadfe70c1")
 		(sheetname "/MCU/")
@@ -14190,6 +14320,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f07f70f6-66e9-41fc-8012-a7f29305a328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f39f2510-6fb1-4092-bc30-22681b1be3e9")
 			(effects
 				(font
 					(size 1 1)
@@ -37512,7 +37655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0224/LTST-C190TBKT.PDF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37542,6 +37685,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98f78615-73b8-45f4-b50a-509b8ea60e29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "5962-XL-1608UBC-04TR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fbd3704-6ed6-44be-a5e0-32b94edb03ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f25539a-a7bc-45f5-a06e-8bbbdfc21a4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MN" "XINGLIGHT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b54ae0d-1572-4f44-bc51-697436ea9430")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ad2392d-6e77-41a9-9e2d-2906442f167d")
 			(effects
 				(font
 					(size 1 1)
@@ -39884,6 +40079,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f45b3652-6fd8-4103-a27a-2b7b3da5c22b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XL-1608UBC-04"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abad6e5a-ab2b-4ac4-8af2-923a2cd542f6")
 			(effects
 				(font
 					(size 1 1)

@@ -753,13 +753,13 @@
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -795,49 +795,49 @@
           "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC_PN",
           "name": "LCSC_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC_MN",
           "name": "LCSC_MN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC2",
           "name": "LCSC2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "ALT_LCSC",
           "name": "ALT_LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "ALT_MN",
           "name": "ALT_MN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "ALT_MPN",
           "name": "ALT_MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC1",
           "name": "LCSC1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
