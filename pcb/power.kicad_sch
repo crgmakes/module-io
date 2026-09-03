@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(property "Digikey" "455-SBM04B-SRSS-TBTR-ND"
+			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
 				(at 3.556 -23.368 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -211,9 +211,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 0)
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "V5"
+					(name "V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,24 +221,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -256,6 +238,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -265,9 +265,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
+					(at -2.54 -7.62 0)
 					(length 2.54)
-					(name "V3"
+					(name "V5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4925,17 +4925,6 @@
 				)
 			)
 		)
-		(property "WVDC" ""
-			(at 77.47 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0a898997-375a-4ac9-a952-a46042a8d8f2")
 		)
@@ -6638,17 +6627,6 @@
 		)
 		(property "Digikey" "455-SBM04B-SRSS-TBTR-ND"
 			(at 51.816 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "WVDC" ""
-			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

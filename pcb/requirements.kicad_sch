@@ -20230,6 +20230,61 @@
 				)
 			)
 		)
+		(property "MN" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5454c337-e679-4d27-a394-0abf4144d85b"
@@ -20614,6 +20669,28 @@
 				)
 			)
 		)
+		(property "MN" ""
+			(at 85.09 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 85.09 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "io-module"
 				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/5454c337-e679-4d27-a394-0abf4144d85b"
@@ -20918,7 +20995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 4mm"
+		(property "Footprint" "CRGM Logos:Roxy 3.5mm"
 			(at 73.66 194.818 0)
 			(hide yes)
 			(show_name no)
