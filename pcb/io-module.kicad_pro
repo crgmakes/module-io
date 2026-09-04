@@ -326,7 +326,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "<<tag>>"
+      "sch_revision": "vX.Y"
     },
     "layer_pairs": [],
     "layer_presets": [],

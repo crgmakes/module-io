@@ -7,7 +7,7 @@
 	(title_block
 		(title "I/O Module")
 		(date "<<release-date>>")
-		(rev "<<tag>>")
+		(rev "vX.Y")
 		(company "CRG Makes")
 		(comment 1 "<<hash>>")
 	)
